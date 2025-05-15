@@ -56,7 +56,7 @@ C-QuEE was developed by **Gabriel E.K. Cole**, an undergraduate researcher at **
 - Biological Data Science (Computational Biology)
 - Minor in Music Performance
 
-The project is part of **NeurQL**, a research initiative founded by the author that focuses on quantum software, AI, and genomics. At 18, Gabriel is leading the development of open benchmarking tools to support scalable and accessible quantum computing research.
+The project is part of **NeurQL**, a research initiative founded by the author that focuses on quantum software, AI, and genomics. At 18, Gabriel is supporting the development of open benchmarking tools to support scalable and accessible quantum computing research at NeurQL.
 
 ---
 
