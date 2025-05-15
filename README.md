@@ -12,22 +12,22 @@
 
 C-QuEE evaluates quantum software across four dimensions:
 
-| Penalty Type           | Description                                              |
-|------------------------|----------------------------------------------------------|
-| **Noise Penalty**      | Penalizes low fidelity and quantum noise                |
-| **Memory Penalty**     | Measures inefficient qubit utilization                  |
-| **Time Penalty**       | Compares quantum versus classical runtime               |
-| **Scalability Penalty**| Assesses input size impact on qubit growth              |
+| Penalty Type            | Description                                               |
+|-------------------------|-----------------------------------------------------------|
+| **Noise Penalty**       | Penalizes low fidelity and quantum noise                  |
+| **Memory Penalty**      | Measures inefficient qubit utilization                    |
+| **Time Penalty**        | Compares quantum versus classical runtime                 |
+| **Scalability Penalty** | Assesses input size impact on qubit growth                |
 
 **Formula:**
 
-\[
-\text{C-QuEE} = 1 - \left( \alpha \cdot \text{NoisePenalty} + \beta \cdot \text{MemoryPenalty} + \gamma \cdot \text{TimePenalty} + \delta \cdot \text{ScalabilityPenalty} \right)
-\]
+C-QuEE =  
+1 - (α × Avg(NoisePenalty) +  
+    β × Avg(MemoryPenalty) +  
+    γ × Avg(TimePenalty) +  
+    δ × Avg(ScalabilityPenalty))
 
-The metric outputs a score from **0 (worst)** to **1 (optimal)**.
-
----
+The output is a score from **0 (worst)** to **1 (optimal)**.
 
 ## Whitepaper
 
