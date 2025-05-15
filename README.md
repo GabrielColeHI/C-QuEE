@@ -22,10 +22,11 @@ C-QuEE evaluates quantum software across four dimensions:
 **Formula:**
 
 C-QuEE =  
-1 - (α × Avg(NoisePenalty) +  
-    β × Avg(MemoryPenalty) +  
-    γ × Avg(TimePenalty) +  
-    δ × Avg(ScalabilityPenalty))
+1 - 
+(α × Avg(NoisePenalty) +  
+ β × Avg(MemoryPenalty) +  
+ γ × Avg(TimePenalty) +  
+ δ × Avg(ScalabilityPenalty))
 
 The output is a score from **0 (worst)** to **1 (optimal)**.
 
